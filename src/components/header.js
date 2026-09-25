@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Marca from './Marca'
-import { linksNav } from '../data/conteudo'
+import { linksNav } from '../data/content'
 
 export default function Header() {
   const [menuAberto, setMenuAberto] = useState(false)
