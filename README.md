@@ -15,13 +15,13 @@ O site apresenta a solução, o público-alvo, a galeria de telas do app, a equi
 
 ## Pré-requisitos:
 
-* ode.js 18.18 ou superior (recomendado: versão LTS)
+* node.js 18.18 ou superior (recomendado: versão LTS)
 * npm (já vem com o Node.js)
 
 Para conferir as versões instaladas:
 
-node -v
-npm -v
+* node -v
+* npm -v
 
 **No terminal**
 
@@ -29,14 +29,14 @@ npm -v
 
 Clone o repositório (ou extraia o .zip), entre na pasta do projeto e instale as dependências:
 
-cd projeto-sp4
-npm install
+* cd projeto-sp4
+* npm install
 
 ## Como executar o projeto
 
 ### Ambiente de desenvolvimento:
 
-npm run dev
+* npm run dev
 
 **No terminal**
 
@@ -44,8 +44,8 @@ Acesse http://localhost:3000 no navegador.
 
 ### Build de produção
 
-npm run build
-npm run start
+* npm run build
+* npm run start
 
 **No terminal**
 
@@ -55,3 +55,4 @@ __Foi utilizado a IA nesse projeto para tirar dúvidas como a utilização de Ho
 
 ## Link Vercel:
 
+https://sp-4-front-web.vercel.app/
