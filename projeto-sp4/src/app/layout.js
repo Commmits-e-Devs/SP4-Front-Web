@@ -1,7 +1,7 @@
 import { Inter, Space_Grotesk, JetBrains_Mono } from 'next/font/google'
 import './globals.css'
+import { AuthProvider } from '../contexts/AuthContext'
 
-// next/font baixa as fontes no build e cria uma CSS variable para cada uma.
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const space = Space_Grotesk({ subsets: ['latin'], variable: '--font-space' })
 const mono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-mono' })
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       className={`${inter.variable} ${space.variable} ${mono.variable} scroll-smooth`}
     >
       <body className="bg-fundo-claro font-main leading-[1.6] text-texto antialiased">
-        {children}
+        <AuthProvider>{children}</AuthProvider>
       </body>
     </html>
   )
